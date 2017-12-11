@@ -18,4 +18,4 @@ Senha: admin102030@
 
 ## FRONTEND
 
-O frontend separado da integração com o wordpress se encontra em umas pasta do diretório principal chamada 'frontend'.
+O frontend separado da integração com o wordpress se encontra em uma pasta do diretório principal chamada 'frontend'.
