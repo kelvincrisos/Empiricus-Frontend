@@ -10,7 +10,7 @@ O projeto foi desenvolvido com campos personalizados, portanto todas as áreas s
 Foi criado um template de página para a Página Inicial, ele pode ser encontrado em 'wp-content->themes->empiricus->templates->home.php'.
 
 
-Login do Wordress:
+Login do Wordpress:
 
 Usuário: admin
 
