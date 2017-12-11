@@ -11,7 +11,9 @@ Foi criado um template de página para a Página Inicial, ele pode ser encontrad
 
 
 Login do Wordress:
+
 Usuário: admin
+
 Senha: admin102030@
 
 ## FRONTEND
