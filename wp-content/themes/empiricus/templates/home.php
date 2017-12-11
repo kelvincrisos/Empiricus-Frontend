@@ -12,15 +12,6 @@ get_header(); ?>
 
 <!-- SOCIAL WIDGET ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <div class="social-widget">
-    <!-- <a href="#" class="sprite2 fb">
-        <span>623</span>
-    </a>
-    <a href="#" class="sprite2 tw"></a>
-    <a href="#" class="sprite2 in"></a>
-    <a href="#" class="sprite2 plus"></a>
-    <a href="#" class="sprite2 wpp"></a>
-    <a href="#" class="sprite2 email"></a> -->
-
     <?php echo do_shortcode('[Sassy_Social_Share type="floating"]'); ?>
 </div>
 
