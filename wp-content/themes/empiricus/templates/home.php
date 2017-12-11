@@ -85,7 +85,7 @@ get_header(); ?>
         <div class="content">
             <?php echo get_field('e-text'); ?>
 
-            e-link
+            <a class="button" href="<?php echo get_field('e-link'); ?>">Saiba Mais</a>
         </div>
 
         <?php $eimg = get_field('e-img'); if(!empty($eimg)): ?>
