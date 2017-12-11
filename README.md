@@ -9,8 +9,11 @@ Por último, basta configurar com as informações do novo servidor o arquivo 'w
 O projeto foi desenvolvido com campos personalizados, portanto todas as áreas são editáveis pelo painel.
 Foi criado um template de página para a Página Inicial, ele pode ser encontrado em 'wp-content->themes->empiricus->templates->home.php'.
 
+
 Login do Wordress:
+
 Usuário: admin
+
 Senha: admin102030@
 
 ## FRONTEND
