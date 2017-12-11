@@ -11,11 +11,9 @@ Foi criado um template de página para a Página Inicial, ele pode ser encontrad
 
 
 Login do Wordress:
-
 Usuário: admin
-
 Senha: admin102030@
 
 ## FRONTEND
 
-O frontend separado da integração com o wordpress se encontra em umas pasta do diretório principal chamada 'frontend'.z
+O frontend separado da integração com o wordpress se encontra em umas pasta do diretório principal chamada 'frontend'.
