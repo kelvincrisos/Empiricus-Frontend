@@ -1,0 +1,266 @@
+.master-container { float: left;position: relative; width: 100%; overflow: hidden; }
+
+
+.sprite1 { display: inline-block; background: url('../images/icons.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;
+    &.go-down { background-position: -0px -0px; width: 53px; height: 53px; }
+    &.fb { background-position: -0px -53px; width: 29px; height: 30px; }
+    &.in { background-position: -0px -81px; width: 29px; height: 30px; }
+    &.plus { background-position: -0px -109px; width: 29px; height: 30px; }
+    &.tw { background-position: -0px -137px; width: 29px; height: 30px; }
+    &.wpp { background-position: -0px -165px; width: 29px; height: 30px; }
+    &.pin-icon { background-position: -0px -193px; width: 27px; height: 32px; }
+    &.go-top { background-position: -27px -193px; width: 26px; height: 13px; }
+    &.email { background-position: -1.5px -226px; width: 30px; height: 30px; }
+}
+ 
+
+.sprite2 { display: inline-block; background: url('../images/icons2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;
+    &.email { background-position: -0px -0px; width: 48px; height: 45px; }
+    &.fb { background-position: -0px -47px; width: 48px; height: 54px; text-indent: 0; text-align: center; text-decoration: none;
+        span { color: #fff; font-family: 'Raleway'; font-size: 9px; line-height: 20px; float: left; position: relative; width: 100%; position: absolute; bottom: 0px; left: 0; background-color: #3c5a96;}
+    }
+    &.in { background-position: -0px -94px; width: 48px; height: 45px; }
+    &.plus { background-position: -0px -141px; width: 48px; height: 45px; }
+    &.tw { background-position: -0px -188px; width: 48px; height: 45px; }
+    &.wpp, { background-position: -0px -235px; width: 48px; height: 47px; }
+    &.email1 { background-position: -0px -282px; width: 30px; height: 30px; }
+}
+ 
+
+.social-widget { position: absolute;  z-index: 9999; width: 48px; top:260px; margin-top: 0px;  left:190px; 
+    a {float: left; position: relative; display: inline-block; .transition(); 
+        &:hover { .opacity(0.8); }
+    }
+
+    .heateor_sss_vertical_sharing { position: absolute;top: 0 !important; left: 0 !important; }
+    .heateorSssWhatsappBackground { display: inline-block; background: url('../images/icons2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; background-position: -0px -235px; width: 48px; height: 46px !important; }
+}
+
+
+.subscribe-banner { z-index: 20; height: 572px; background-position: center; background-repeat: no-repeat; padding: 95px 0;
+    .content { width: 790px; position: relative; margin: 0 auto; text-align: center;
+        h1,h2,h3,h4 { float: left; position: relative; width: 100%; font-weight: 900; margin-bottom: 40px; font-size: 42px; color: #ffffff; text-transform: uppercase; line-height: 50px; }
+
+        p { float: left; position: relative; width: 100%; color: #ffffff; font-size: 21px; line-height: 24px; }
+
+        .form { float: left; position: relative; width: 100%; margin-top: 45px;
+            form {float: none; position: relative; width: 690px; margin: 0 auto; }
+            input[type="text"], input[type="email"] { float: left; position: relative; font-family: 'Raleway'; font-size: 20px; font-weight: 300; font-style: italic; width: 66%; border: 0px; padding: 23px 25px;}
+            input[type="submit"] { float: left; padding: 25px 0; .transition(); position: relative; width: 34%; background-color: #b21736; border: 0; color: #fff; text-transform: uppercase;font-size: 21px; font-family: 'Raleway'; font-weight: 700;
+                &:hover { background-color: #282727; }
+            }
+            br { display: none; }
+        }
+    }
+
+    .go-down { position: absolute; bottom: -20px; left: 50%; margin-left: -31px; cursor: pointer; }
+}
+
+
+.section { z-index: 10;
+    h1,h2,h3,h4,h5 { float: left; position: relative; font-weight: 500; width: 100%; color: #6d6d6d; text-transform: uppercase; font-size: 29px; line-height: 35px; margin: 8px 0 26px 0;}
+    .title { margin: 0px 0 33px 0; color: #b21e37; font-size: 41px; font-family: 'Raleway'; font-weight: 900;}
+
+    p { font-size: 21px; line-height: 35px; font-weight: 400; float: left; position: relative; width: 100%; color: #6d6d6d; margin-bottom: 22px;
+        &:last-child { margin-bottom: 0px; }
+    }
+
+    .button { float: left; position: relative; width: 100%; text-align: center; bottom: -40px;
+        a { position: relative; .transition(); display: inline-block; width: auto; text-decoration: none; background-color: #b21736; color: #fff; text-transform: uppercase; font-weight: 700; font-size: 21px; padding: 20px 30px;
+            &:hover { background-color: #282727; }
+        }
+        .sprite1 { position: relative; left: -10px; }
+    }
+
+    &.gray { background-color: #282727; padding: 90px 0;
+        p,h1,h2,h3,h4,h5, .title { color: #fff; }
+    }
+
+    &.white { padding: 100px 0 80px 0; }
+}
+
+
+.about-section { padding: 80px 0; background-position: center; background-repeat: no-repeat; background-image: url(../images/about-bg.jpg); overflow: hidden;
+    .content { float: left; position: relative; width: 60%;
+        h1,h2,h3,h4 { float: left; position: relative; width: 100%;  color: #fff; font-size: 29px; line-height: 35px; font-weight: 900; text-transform: uppercase; }
+        p { float: left; position: relative; width: 100%; color: #fff; font-size: 21px; line-height: 37px; }
+        .button { float: left; position: relative; .transition(); margin-top: 30px; text-transform: uppercase; background-color: #b21736; color: #fff; font-weight: 700; font-size: 21px; width: 240px; text-align: center; padding: 21px 0; text-decoration: none;
+            &:hover { background-color: #282727; }
+        }
+    }
+
+    .img { position: absolute; right: -68px; top: -115px; width: auto; max-width: 100%; }
+}
+
+
+/* CONTENT
+-----------------------------------------------------------------------*/
+
+
+.three-cols {
+    .col-center { overflow: hidden; }
+    .itens { float: left; position: relative; width: 103%; }
+    .item { float: left; position: relative; width: 31%; margin-right: 2.3%; }
+}
+
+
+
+
+/* Internal content
+-----------------------------------------------------------------------*/
+
+@media (max-width: 1400px) {
+body when (@responsive-website = 'true'){
+
+
+    .social-widget { position: absolute;  z-index: 9999; width: 48px;   left: 50px;
+        a {float: left; position: relative; display: inline-block; .transition(); 
+            &:hover { .opacity(0.8); }
+        }
+    }
+
+    
+}	
+}
+
+
+@media (max-width: 1000px) {
+body when (@responsive-website = 'true' ) {
+    
+    .social-widget {display: none;
+    }
+
+}
+}
+
+
+/*base tablet styles*/
+@media (max-width: 900px) {
+body when (@responsive-website = 'true' ) {
+
+
+
+    .about-section { background-position: cover;
+        .content { float: left; position: relative; width: 100%;
+            h1,h2,h3,h4 { font-size: 18px; line-height: 25px;  }
+            p { font-size: 16px; line-height: 25px; }
+            .button { margin-top: 20px;  font-size: 16px; width: 100px; text-align: center; padding: 15px 0;
+                &:hover { background-color: #282727; }
+            }
+        }
+
+        .img { display: none; }
+    }
+
+
+
+
+
+}
+}
+
+/*base mobile styles - everything 100%*/
+@media (max-width: 850px) {
+body when (@responsive-website = 'true' ) {
+
+
+
+
+
+}
+}
+
+@media (max-width: 800px) {
+body when (@responsive-website = 'true'){
+
+
+    .subscribe-banner { height: auto; padding: 95px 0;
+        .content { width: 100%; 
+            h1,h2,h3,h4 {  margin-bottom: 25px; font-size: 25px; line-height: 30px; }
+
+            p { float: left; position: relative; width: 100%; color: #ffffff; font-size: 17px; line-height: 24px; }
+
+            .form { float: left; position: relative; width: 100%; margin-top: 45px;
+                form {float: none; position: relative; width: 100%; margin: 0 auto; }
+                input[type="text"], input[type="email"] { font-size: 15px; width: 66%; padding: 18px 25px;}
+                input[type="submit"] {padding: 18px 0; width: 34%; font-size: 16px;  }
+            }
+        }
+    }
+
+
+
+    .section { z-index: 10;
+        h1,h2,h3,h4,h5 { font-size: 16px; font-weight: 600; line-height: 25px; margin: 8px 0 26px 0;}
+        .title { margin: 0px 0 33px 0; font-size: 25px; line-height: 30px; }
+
+        p { font-size: 16px; line-height: 25px; margin-bottom: 22px;
+            // br { display: none; }
+        }
+
+        .button { 
+            a {  font-size: 16px; 
+                &:hover { background-color: #282727; }
+            }
+            .sprite1 { position: relative; left: -10px; }
+        }
+
+    }
+
+
+        
+}	
+}
+
+/*base mobile styles - everything 100%*/
+@media (max-width: 700px) {
+body when (@responsive-website = 'true' ) {
+
+
+
+}
+}
+
+/*base mobile styles - everything 100%*/
+@media (max-width: 650px) {
+body when (@responsive-website = 'true' ) {
+
+
+
+
+}
+}
+
+/*base mobile styles - everything 100%*/
+@media (max-width: 550px) {
+body when (@responsive-website = 'true' ) {
+
+
+    
+    .subscribe-banner { height: auto; padding: 95px 0;
+        .content { width: 100%; 
+            h1,h2,h3,h4 {  margin-bottom: 25px; font-size: 16px; line-height: 25px; }
+
+            p { float: left; position: relative; width: 100%; color: #ffffff; font-size: 14px; line-height: 24px; }
+
+            .form { float: left; position: relative; width: 100%; margin-top: 45px;
+                form {float: none; position: relative; width: 100%; margin: 0 auto; }
+                input[type="text"], input[type="email"] { font-size: 14px; width: 100%; padding: 14px 0px 14px 10px;}
+                input[type="submit"] {padding: 14px 0; width: 100%; font-size: 10px;  }
+            }
+        }
+    }
+
+    
+}
+}
+
+
+/*base mobile styles - everything 100%*/
+@media (max-width: 480px) {
+body when (@responsive-website = 'true' ) {
+
+
+
+}
+}

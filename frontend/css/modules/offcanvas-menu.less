@@ -1,0 +1,28 @@
+// OFF CANVAS MENU (MOBILE)
+.offcanvas-transform { .transition(0.600s,ease-in-out); background-color: #fff; float: left;position: relative; width: 100%; 
+	&.access-left{-moz-transform: translateX(-320px);-webkit-transform: translateX(-320px);-o-transform: translateX(-320px);transform: translateX(-320px);-ms-transform: translateX(-320px);}
+}
+
+.offcanvas-menu { position: absolute; overflow-y: scroll;width: 320px;  height: 100%; right: -320px;  background-color: #fff; z-index: 8888; padding-bottom: 50px;
+    .center { position: relative; margin: 0 auto; width:75%; height: 100%;}
+	.offcanvas-top-menu { float: left;position: relative; width: 100%; margin-bottom: 5px;
+		li { float: left;position: relative; width: 100%; list-style-type: none; border-bottom: 1px #eee solid;
+			a {  padding:15px 0px 15px 0px; .transition(0.200s,linear); text-transform: uppercase; float: left;position: relative; width: 100%; text-decoration: none;  font-weight: 600; color: #000; font-size: 12px; letter-spacing: 0.8px;}
+        }
+    }
+}
+
+
+
+/*base mobile styles - everything 100%*/
+@media (max-width: 550px) {
+body when (@responsive-website = 'true' ) {
+
+    .offcanvas-transform { 
+        &.access-left{ -moz-transform: translateX(-80%);-webkit-transform: translateX(-80%);-o-transform: translateX(-80%);transform: translateX(-80%);-ms-transform: translateX(-80%);}
+    }
+
+    .offcanvas-menu { width: 80%; right: -80%; }
+    
+}
+}

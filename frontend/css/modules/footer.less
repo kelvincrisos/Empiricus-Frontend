@@ -1,0 +1,76 @@
+/* Footer
+-----------------------------------------------------------------------*/
+
+
+.footer { background-color: #000000; height: auto; padding: 20px 0 30px;
+
+    .left { float: left; position: relative; width: 40%; }
+    .right { float: right; position: relative; width: 50%;
+        .l { float: left; position: relative; width: 40%;}
+        .r { float: right; position: relative; width: 50%;}
+    }
+
+    strong { color: #fff; text-transform: uppercase; font-size: 18px; margin-bottom: 12px; font-family: 'Raleway'; font-weight: 400; float: left; position: relative; width: 100%;}
+    p, address{ font-size: 14px; color: #fff; line-height: 18px; font-style: normal;
+        a { color: #fff; text-decoration: none; .transition(0.200s,linear);
+            &:hover { .opacity(0.5); }
+        }
+    } 
+    .pin-icon { float: left; position: relative; margin-bottom: 0px;  margin-right: 10px; top: 2px;}
+
+    .social { float: left; position: relative; width: 100%; 
+        a { border-right: 1px #fff solid; .transition(0.200s,linear); border-top: 1px #fff solid; border-bottom: 1px #fff solid;float: left; position: relative;
+            &:first-child { border-left: 1px #fff solid;  }
+            &:hover { .opacity(0.6); }
+        }
+    }
+}
+
+.copyright { background-color: #000; background-position: center; padding: 30px 0 30px 0;
+	p { font-size: 12px; line-height: 17px; color: #fff; float: left; position: relative; width: 98%; }
+}
+
+
+
+
+
+
+/*base mobile styles - everything 100%*/
+@media (max-width: 850px) {
+body when (@responsive-website = 'true' ) {
+
+
+    .footer { background-color: #000000; height: auto; padding: 30px 0 30px; text-align: center;
+
+        .left { float: left; position: relative; width: 100%; margin-bottom: 50px; }
+        .right { float: right; position: relative; width: 100%;
+            .l { float: left; position: relative; width: 100%; margin-bottom: 50px;}
+            .r { float: right; position: relative; width: 100%;}
+        }
+
+        strong { color: #fff; text-transform: uppercase; font-size: 18px; margin-bottom: 12px; font-family: 'Raleway'; font-weight: 400; float: left; position: relative; width: 100%;}
+       
+        .pin-icon { display: none; }
+
+        .social { float: left; position: relative; width: 100%; text-align: center;
+            a { border:0px; display: inline-block; float: none; height: 28px;
+                &:first-child { border-left: 0px #fff solid;  }
+                &:hover { .opacity(0.6); }
+            }
+        }
+    }
+
+    .copyright { text-align: center;}
+
+
+}
+}
+
+/*base mobile styles - everything 100%*/
+@media (max-width: 550px) {
+body when (@responsive-website = 'true' ) {
+
+    
+
+}
+}
