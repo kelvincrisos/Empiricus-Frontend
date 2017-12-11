@@ -27,10 +27,6 @@
     <!-- style -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css" />
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/png">
-
     <?php echo wp_head(); ?>
 
 </head>
