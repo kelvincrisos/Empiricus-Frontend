@@ -1,4 +1,4 @@
-## Instalação
+## INSTALAÇÃO
 
 Primeiramente temos que importar o banco de dados para o seu servidor. No diretório principal existe uma pasta chamada 'db', com o arquivo SQL do wordpress.
 Com o banco de dados já importado, temos que alterar na tabela 'empiricus_options' as configurações de URL para o endereço do novo servidor.
